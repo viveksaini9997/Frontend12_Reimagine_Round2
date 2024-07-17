@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".menu");
   const nav = document.querySelector(".nav-links");
@@ -22,6 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle("toggle");
   });
 });
+
+
 
 
 
@@ -60,6 +64,9 @@ var swiper = new Swiper(".trending-slider", {
     },
   },
 });
+
+
+
 
 gsap.from(".feature1-image img", {
   x: -40,
@@ -396,6 +403,8 @@ gsap.from(" #airpods", {
     end: "top 40%",
   },
 });
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const productCards = document.querySelectorAll(".product-card");
@@ -770,4 +779,6 @@ btn3.addEventListener("click", function () {
     },
   });
 });
+
+
 
